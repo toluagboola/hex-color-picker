@@ -1,18 +1,31 @@
 body {
-  background: #e156e8;
+  background: #ffffff;
   font-family: 'Lato', sans-serif;
   transition: background 0.3s;
 }
 
 .container {
   text-align: center;
+  letter-spacing: 0.1em;
   margin: 20%;
 }
 
 button {
+  width: 100px;
+  height: 30px;
+  font-size: 1em;
   color: white;
+  text-align: center;
   background-color: black;
-  outline: none;
+  border: none;
   padding: 5px;
   border-radius: 5px;
+}
+
+button:hover {
+  background: #343434;
+}
+
+button:focus {
+  outline: none;
 }
