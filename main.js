@@ -6,10 +6,6 @@ const value = document.querySelector('.hexValue');
 button.addEventListener('click', changeHex);
 
 function changeHex(){
-  // for(let i = 0; i < colors.length; i++){
-  //   console.log(colors[1]);   
-  //   body.style.backgroundColor = colors[i];
-  // }
   let hex = '#';
 
   for(let i = 0; i < 6; i++){
@@ -19,7 +15,4 @@ function changeHex(){
 
   value.textContent = hex;
   body.style.backgroundColor = hex;
-
-  // let colorIndex = Math.floor(Math.random() * 6 + 1);
-  // body.style.backgroundColor = colors[colorIndex];
 }
