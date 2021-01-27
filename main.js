@@ -5,7 +5,7 @@ const value = document.querySelector('.hexValue');
 
 button.addEventListener('click', changeHex);
 
-function changeHex(){
+function changeHex() {
   let hex = '#';
 
   for(let i = 0; i < 6; i++){
